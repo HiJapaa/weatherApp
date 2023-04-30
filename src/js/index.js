@@ -30,19 +30,19 @@ serchInput.addEventListener('keyup', (e) => {
 
                 switch (json.weather[0].main) {
                     case 'Clear':
-                        image.src = '../img/limpo.png'
+                        image.src = '../src/img/clear.png'
                         break
                     case 'Rain':
-                        image.src = '../src/img/chuva.png'
+                        image.src = '../src/img/rain.png'
                         break
                     case 'Snow':
-                        image.src = '../src/img/neve.png'
+                        image.src = '../src/img/snow.png'
                         break
                     case 'Clouds':
-                        image.src = '../src/img/nuvem.png'
+                        image.src = '../src/img/cloud.png'
                         break
                     case 'Haze':
-                        image.src = '../src/img/vento.png'
+                        image.src = '../src/img/wind.png'
                         break
 
                     default:
@@ -89,19 +89,19 @@ searchButton.addEventListener('click', () => {
 
             switch (json.weather[0].main) {
                 case 'Clear':
-                    image.src = '../src/img/limpo.png'
+                    image.src = '../src/img/clear.png'
                     break
                 case 'Rain':
-                    image.src = '../src/img/chuva.png'
+                    image.src = '../src/img/rain.png'
                     break
                 case 'Snow':
-                    image.src = '../src/img/neve.png'
+                    image.src = '../src/img/snow.png'
                     break
                 case 'Clouds':
-                    image.src = '../src/img/nuvem.png'
+                    image.src = '../src/img/cloud.png'
                     break
                 case 'Haze':
-                    image.src = '../src/img/vento.png'
+                    image.src = '../src/img/wind.png'
                     break
 
                 default:
