@@ -35,6 +35,9 @@ serchInput.addEventListener('keyup', (e) => {
                     case 'Rain':
                         image.src = '../src/img/rain.png'
                         break
+                    case 'Drizzle':
+                        image.src = '../src/img/rain.png'
+                        break
                     case 'Snow':
                         image.src = '../src/img/snow.png'
                         break
@@ -92,6 +95,9 @@ searchButton.addEventListener('click', () => {
                     image.src = '../src/img/clear.png'
                     break
                 case 'Rain':
+                    image.src = '../src/img/rain.png'
+                    break
+                case 'Drizzle':
                     image.src = '../src/img/rain.png'
                     break
                 case 'Snow':
